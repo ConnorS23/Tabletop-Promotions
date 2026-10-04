@@ -1,0 +1,3 @@
+-keepattributes *Annotation*, InnerClasses
+-keep,includedescriptorclasses class com.tableads.app.**$$serializer { *; }
+-keepclassmembers class com.tableads.app.** { *** Companion; }
